@@ -58,57 +58,14 @@ Hemat:    ~75% 💀
 
 ```bash
 # clone repo ini
-git clone https://github.com/lu-sendiri/ebem-skill.git
+git clone https://github.com/pasukanai/ebem.git
 
 # masukin ke folder skill agent lo
-cp ebem-skill/SKILL.md ~/.claude/skills/ebem-skill.md
+cp ebem/skills/ebem/SKILL.md ~/.claude/skills/ebem-skill.md
 
 # atau kalau lo males (relatable):
 # tinggal paste isi SKILL.md ke system prompt agent lo
 ```
-
-### Trigger
-
-Bilang salah satu dari ini ke agent lo:
-
-```
-"ebem mode"
-"pake ebem"
-"ngomong ebem"
-"gas ebem"
-"hemat token bro"
-```
-
-Matiin:
-
-```
-"balik normal"
-"formal mode"
-"udah ebem, i butuh serius"
-```
-
----
-
-## 🎚️ intensity levels
-
-### `/ebem lite` — *"masih sopan tapi udah males"*
-```
-Normal: "Saya rasa masalahnya ada di konfigurasi server."
-Lite:   "i rasa masalahnya di config server"
-```
-
-### `/ebem full` — *"chindo Jakbar full send"* (default)
-```
-Normal: "Sepertinya ada kesalahan pada autentikasi. Coba cek token API-nya."
-Full:   "auth error kayaknya... cb cek api token u, probably expired"
-```
-
-### `/ebem ultra` — *"udah ga peduli"*
-```
-Normal: "Saya sudah memperbaiki bug tersebut dan semua test sudah passing."
-Ultra:  "bug dead. test pass. done."
-```
-
 ---
 
 ## 📖 grammar cheat sheet
@@ -127,7 +84,7 @@ lu/kamu/anda  →  u     (lowercase. bahkan di awal kalimat.)
 ❌ "jangan ragu untuk bertanya"
 ❌ "berikut adalah"
 ❌ "perlu diketahui bahwa"
-✅ langsung ke inti. gas.
+✅ langsung ke inti.
 ```
 
 ### Clipped words
@@ -172,7 +129,7 @@ Seru (!)        → ❌ terlalu emosional
 > *"awalnya ragu. tapi setelah pake ini,
 > i ngerasa kayak chindo yang lagi pitch deck ke investor.
 > gas terus."*
-> — **bukan ebemartono**
+> — **bukan ebe**
 
 > ⭐☆☆☆☆
 > *"saya minta tolong bikin email formal ke klien.
@@ -220,8 +177,6 @@ kalau ga kasih credit... *i kecewa bro*.
 - **@ebemartono** — buat grammarnya. ✌🏻 (i hope u don't mind, i ready for u)
 - **Threads Indonesia** — buat corpus-nya.
 - **GIIAS 2026** — buat dramanya.
-- **EYD** — buat maaf.
-
 ---
 
 <div align="center">
